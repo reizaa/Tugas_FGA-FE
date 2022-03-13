@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,500&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: white;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 20px 120px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+header .login{
+    width: 133px;
+    height: 49px;
+    background-color: #84D19F;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+nav a{
+    padding: 35px;
+    color: #34364A;
+}
+
+section{
+    min-height: 100vh;
+    padding:0 9%;
+    padding-top: 7.5rem;
+    /* padding-bottom: 2rem; */
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 26px;
+    padding: 15px 36px;
+    border-radius: 30px;
+    background: #84D19F;
+    font-size: 18px;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .content h1{
+    font-size: 40px;
+    color: #34364A;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home .content span{
+    color: #84D19F;
+}
+
+.home .content p{
+    font-size: 20px;
+    /* font-weight: 500 !important; */
+    color: #73757C;
+}
+.home .image img{
+    width: 562px;
+    height: 624px;
+}
+
+.course {
+    /* Rectangle 4 */
+    /* width: 1360px; */
+    height: 767px;
+    /* left: 0px;
+    top: 766px; */
+    background: #FDFDFD;
+    padding : 70px 0 0 9%;
+}
+.course .title {
+    /* Courses */
+    display: block;
+    width: 75px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+/* identical to box height */
+    color: #84D19F;
+    margin-bottom: 14px;
+}
+
+.course .main-title {
+    /* Find Courses in Your Field */
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #34364A;
+    margin-bottom: 25px;
+}
+
+.search-engine {
+    /* Rectangle 13 */
+    position: relative;
+    width: 818px;
+    height: 54px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 11px rgba(132, 209, 159, 0.42);
+    border-radius: 30px;
+}
+
+.search-engine .logo-1 {
+    /* Rectangle 15 */
+    position: absolute;
+    display: inline-block;
+    width: 152px;
+    height: 44px;
+    left: 660px;
+    top: 5.4px;
+    background: #84D19F;
+    box-shadow: 0px 0px 7px rgba(132, 209, 159, 0.42);
+    border-radius: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    /* Inside auto layout */
+    /* flex: none;
+    order: 1;
+    flex-grow: 0; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-engine .search {
+    display: block;
+    color:#fff;
+}
+
+.lesson {
+    /* Rectangle 17 */
+    /* position: absolute; */
+    width: 387px;
+    height: 373px;
+    /* left: 80px;
+    top: 1029px; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    /* Digital Marketing : Learn Digital Marketing For Beginner */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #34364A;
+    margin: 37px 3% 0 0;
+    float: left;
+}
+.lesson span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #84D19F;
+}
+.lesson-icon img{
+    /* pexels-karolina-grabowska-7681088 1 */
+    /* position: absolute; */
+    width: 387px;
+    height: 256.78px;
+    /* left: 80px;
+    top: 1027.01px; */
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.txt-contents {
+    padding: 0 3% 0 3%;
+}
