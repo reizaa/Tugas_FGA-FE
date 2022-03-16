@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>instagram-tile-svg</title>
+	<style>
+		.s0 { fill: #73757c } 
+		.s1 { fill: none;stroke: #ffffff;stroke-width: 29 } 
+		.s2 { fill: #ffffff } 
+	</style>
+	<rect id="Layer" class="s0" width="512" height="512" rx="15"></rect>
+	<g id="Layer">
+		<rect id="Layer" class="s1" x="108" y="108" width="296" height="296" rx="78"></rect>
+		<circle id="Layer" class="s1" cx="256" cy="256" r="69"/>
+	</g>
+	<circle id="Layer" class="s2" cx="343" cy="169" r="19"/>
+</svg>

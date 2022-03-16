@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>youtube-tile-svg</title>
+	<style>
+		.s0 { fill: #73757c } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<rect id="Layer" class="s0" width="512" height="512" rx="15"></rect>
+	<path id="Layer" class="s1" d="m427 343c-4 15-17 27-32 31c-37 10-242 10-278 0c-15-4-28-16-32-31c-10-39-9-136 0-174c4-15 17-27 32-31c39-10 244-9 278 0c15 4 28 16 32 31c9 37 9 138 0 174z"/>
+	<path id="Layer" class="s0" d="m313 256l-93 53v-106"/>
+</svg>
