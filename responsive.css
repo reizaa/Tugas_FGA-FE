@@ -1,8 +1,12 @@
-/* Tablet */
-@media (max-width:1000px){
-  .menu-icon {
+@media (min-width:1000px){
+  header .menu-icon {
     display: none;
   }
+}
+
+/* Tablet */
+@media (max-width:1000px){
+
 
   .footer-list {
     width: 100%;
@@ -32,6 +36,9 @@
 
 @media (min-width: 671px) and (max-width: 1000px) {
 
+header .menu-icon {
+    display: none;
+}
 
 .list-class .mid {
   margin : 5% 20% 5% 23%;
@@ -91,8 +98,8 @@
   } */
   
   .home .image img{
-    width: 281px;
-    height: 312px;
+    width: 150%;
+    height: 150%;
     margin-right: 5%;
   }
 /*     lesson */
@@ -117,13 +124,21 @@
   .course .main-title{
       /* width: 100%; */
       /* display: inline-block; */
-      font-size: 20px;
+      font-size: 16px;
       padding-bottom: 5px;
       /* margin-bottom: 5%; */
   }
 
+  .lesson img {
+    width: 100%;
+  }
+  .list-class .lesson {
+    max-width : 350px;
+    width: 80%;
+  }
+
   .lesson,.mid{
-    margin: 5% 25% 5% 20%;
+    margin: 5% 10% 5% 10%;
     /* left: 50%; */
   }
 /*     batas lesson */
