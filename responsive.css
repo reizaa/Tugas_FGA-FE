@@ -1,0 +1,145 @@
+/* Tablet */
+@media (max-width:1000px){
+  .menu-icon {
+    display: none;
+  }
+
+  .footer-list {
+    width: 100%;
+  }
+  
+  .footer-list .list-section{
+      flex: 0 0 auto;
+      width: 50%;
+      /* flex-wrap: wrap; */
+  }
+
+  .footer-info {
+      gap: 24px;
+      /* flex-wrap: wrap; */
+  }
+
+  .footer-info .social-media,
+  .footer-info .info-link,
+  .footer-info .copyright  {
+      flex: 0 0 auto;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 671px) and (max-width: 1000px) {
+
+
+.list-class .mid {
+  margin : 5% 20% 5% 23%;
+}
+
+.lesson img {
+  width: 100%;
+}
+.list-class .lesson,.list-class .mid {
+  width: 40%;
+}
+
+.search-engine{
+  width: 555px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+.search-engine .logo-1{
+    position: absolute;
+    display: inline-block;
+    left: 398px;
+    top: 5.4px;
+    margin-bottom: 50px;
+}
+
+}
+
+/* Mobile */
+@media (max-width:670px){
+
+  .navbar, .login {
+    display: none;
+  }
+
+  section {
+    flex-wrap: column;
+    /* width: 100%; */
+    padding: 30% 20% 0 20%;
+
+  }
+  .home .content h1{
+    font-size: 30px;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+.home .content p{
+  font-size: 15px;
+}
+  /* .home .content{
+    margin-top: 40%;
+    margin-right: 5%;
+  } */
+  
+  .home .image img{
+    width: 281px;
+    height: 312px;
+    margin-right: 5%;
+  }
+/*     lesson */
+  .search-engine{
+    width: 355px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+
+  .search-engine .logo-1{
+      position: absolute;
+      display: inline-block;
+      left: 198px;
+      top: 5.4px;
+      margin-bottom: 50px;
+    }
+  
+  .course .title {
+    font-size: 12px;
+  }
+
+  .course .main-title{
+      /* width: 100%; */
+      /* display: inline-block; */
+      font-size: 20px;
+      padding-bottom: 5px;
+      /* margin-bottom: 5%; */
+  }
+
+  .lesson,.mid{
+    margin: 5% 25% 5% 20%;
+    /* left: 50%; */
+  }
+/*     batas lesson */
+
+  .footer-list{
+      gap: 16px;
+      width: 100%;
+  }
+
+  .footer-list .list-section{
+      flex: 0 0 auto;
+      width: 100%;
+  }
+
+  .footer-info .info-link{
+      flex-wrap: wrap;
+      gap: 14px;
+  }
+}
