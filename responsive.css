@@ -98,6 +98,8 @@ header .menu-icon {
   } */
   
   .home .image img{
+    min-width: 139px;
+    min-height: 154px;
     width: 150%;
     height: 150%;
     margin-right: 5%;
