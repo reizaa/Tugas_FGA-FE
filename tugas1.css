@@ -13,7 +13,7 @@
 
 @keyframes anim {
     from   {color: #84D19F;}
-    to  {color: blue;}
+    to  {color: rgb(22, 126, 196);}
   }
 
 body{
@@ -78,15 +78,13 @@ section{
     color: #34364A;
     font-weight: bold;
     margin-bottom: 20px;
-    animation-name: anim;
-    animation-duration: 4s;
 }
 
 .home .content span{
     /* color: blue; */
     color: #84D19F;
     animation-name: anim;
-    animation-duration: 4s;
+    animation-duration: 6s;
 }
 
 .home .content p{
